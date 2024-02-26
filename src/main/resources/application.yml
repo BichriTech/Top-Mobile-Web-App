@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: discovery-server
+  config:
+    import: optional:configserver:http://localhost:2884
+    #Security Access config-server
+  cloud:
+    config:
+      username: ConfigUser
+      password: jZVuh9+KejvKQ+Q+Rwncsj13Yh9CJtmOZoaye1NGthuStUCw52uD6o3y9R8919xw
